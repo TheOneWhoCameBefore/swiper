@@ -1,0 +1,20 @@
+--- Setting up Test ---
+Injecting 510 dummy profiles...
+Initial Count: 510
+
+--- Running Recycle Logic ---
+Count 510 > Cap 500. Deleting 10 oldest...
+Final Count: 500
+Oldest remaining ID: 10
+
+✅ SUCCESS: Cap enforced, oldest profiles deleted.
+--- Setting up Test ---
+Injecting 510 dummy profiles...
+Initial Count: 510
+
+--- Running Recycle Logic ---
+Count 510 > Cap 500. Deleting 10 oldest...
+Final Count: 500
+Oldest remaining ID: 10
+
+✅ SUCCESS: Cap enforced, oldest profiles deleted.
