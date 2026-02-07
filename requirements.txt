@@ -1,8 +1,0 @@
-fastapi
-uvicorn
-libsql-client
-google-genai
-python-dotenv
-httpx
-mangum
-aiohttp<3.10
