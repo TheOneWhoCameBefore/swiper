@@ -1,8 +1,12 @@
 [build]
   command = "npm run build"
   publish = "dist"
+  functions = "netlify/functions"
 
 [functions]
+  directory = "netlify/functions"
+  node_bundler = "zisi"
+  included_files = ["netlify/functions/**/*.py"]
 
 [dev]
   targetPort = 3000
