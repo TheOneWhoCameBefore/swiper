@@ -72,4 +72,4 @@ def swipe_profile(req: SwipeRequest):
         client.close()
 
 # Netlify entry point
-handler = Mangum(app)
+handler = Mangum(app, api_gateway_base_path="/.netlify/functions")

@@ -1,9 +1,9 @@
 [build]
   command = "npm run build"
   publish = "dist"
+  functions = "netlify/functions"
 
 [functions]
-  directory = "netlify/functions"
 
 [dev]
   targetPort = 3000
